@@ -2,7 +2,7 @@
 Convert flat array of object to unFlate array
 
 ### Live example
-* https://jsfiddle.net/ymq29tgm/
+* https://jsfiddle.net/uf04cg56/
 
 ## Example:
 ```
