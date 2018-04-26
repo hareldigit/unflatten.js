@@ -58,7 +58,7 @@ function unflatten(data,groupingRules) {
 
 			var arrNextIterateKeys =  [];
 			if(groupingRules.length>1){
-        var duplicatedGroupingRules = groupingRules.slice();
+			var duplicatedGroupingRules = groupingRules.slice();
 				duplicatedGroupingRules.shift();
 				arrNextIterateKeys = duplicatedGroupingRules;
 			}
@@ -68,10 +68,7 @@ function unflatten(data,groupingRules) {
 				  var tempValue = arrNextIterateKeys;
 				  arrNextIterateKeys = [tempValue];
 				}
-		    console.log("before enter: ",arrMatchItems);
 				arrMatchItems = exec(arrMatchItems,arrNextIterateKeys);
-        console.log("after enter: ",arrMatchItems);
-         console.log("---------------------");
 			}
 			cluster.pushClusterItems(arrMatchItems);
 			 
