@@ -1,5 +1,5 @@
 # unflatten.js
-Convert flat array of object to unFlate array
+Convert flat array of objects to unFlate array
 
 ### Live example
 * https://jsfiddle.net/uf04cg56/
